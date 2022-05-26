@@ -3,6 +3,13 @@ import { ref } from 'vue'
 
 defineProps<{ msg: string }>()
 
+console.log('this is js?')
+
+var one = 1
+var two = 1 + 1
+let test = (1 + 2 + 3)
+console.log(test);
+
 const count = ref(0)
 </script>
 
